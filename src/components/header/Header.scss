@@ -1,0 +1,11 @@
+.header {
+    padding: 1rem;
+    background-color: var(--clr-rose);
+    &__title {
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-semilarge);
+        color: var(--clr-cornsilk);
+        text-transform: uppercase;
+        text-align: center;
+    }
+}

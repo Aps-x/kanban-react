@@ -1,0 +1,16 @@
+.button-secondary {
+    padding-block: 0.5rem;
+    width: min(100%, 300px);
+    align-self: start;
+    border: 1px solid var(--clr-rose);
+    background: transparent;
+    color: var(--clr-rose);
+    font-weight: var(--fw-medium);
+    text-transform: uppercase;
+    border-radius: 4px;
+    &:hover {
+        background-color: var(--clr-rose);
+        color: var(--clr-cornsilk);
+        cursor: pointer;
+    }
+}

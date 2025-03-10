@@ -1,0 +1,38 @@
+.card {
+    --clr-band: var(--clr-yellow);
+    --band-size: 5px;
+    --clr-background: var(--clr-white);
+    --flow-spacer: 1rem;
+    background: linear-gradient(to right, var(--clr-band) var(--band-size), var(--clr-background) 0 100%); 
+    border: 1px solid var(--clr-gray);
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    padding-block: 0.5rem;
+    &:hover {
+        cursor: pointer;
+        outline: 3px solid var(--clr-rose);
+    }
+    &__title {
+       
+    }
+    &__label {
+        font-size: var(--fs-extrasmall);
+        background-color: var(--clr-yellow);
+        border-radius: 6px;
+        padding: 2px 5px;  
+        width: min-content;
+    }
+    &__datetime {
+        display: inline-block;
+    }
+    &__weighting {
+        display: inline-block;
+    }
+    &__options {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-left: auto;
+    }
+}
